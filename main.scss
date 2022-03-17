@@ -1,0 +1,121 @@
+@import "./style/variables.scss";
+@import "./fonts/Poppins/stylesheet.css";
+@import "./fonts/SourceSansPro/stylesheet.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title,
+.subtitle,
+.header__logo {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 64px;
+
+  @media all and (max-width: 900px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+
+  @media all and (max-width: 900px) {
+    font-size: 16px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+  max-width: 170px;
+  border: 1px solid $lightgrey;
+  border-radius: 24px;
+}
+
+.socials {
+  display: flex;
+  width: 100%;
+
+  &__link:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__content {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1440px;
+  }
+}
+
+.start,
+.advantage,
+.blog,
+.feedback,
+.team,
+.works,
+.footer {
+  padding: 0 135px;
+}
+
+@import "./style/start.scss";
+@import "./style/about.scss";
+@import "./style/works.scss";
+@import "./style/advantage.scss";
+@import "./style/team.scss";
+@import "./style/feedback.scss";
+@import "./style/blog.scss";
+@import "./style/last.scss";

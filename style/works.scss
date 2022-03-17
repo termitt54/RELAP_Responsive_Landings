@@ -1,0 +1,131 @@
+.works {
+    width: 100%;
+    background-color: rgba(253, 242, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 61px;
+    padding-bottom: 48px;
+
+    &__text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+
+    &__nav {
+        width: 100%;
+        display: flex;
+        margin-bottom: 42px;
+        flex-wrap: wrap;
+
+        &-item-link {
+            color: $mediumgrey;
+
+            &:hover {
+                color: $black;
+                font-weight: 600;
+            }
+        }
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__gallery {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+        position: relative;
+
+        &-img {
+            width: 100%;
+            max-width: 370px;
+        }
+
+        &-text {
+            position: absolute;
+            top: 66.54%;
+            left: 36.92%;
+
+            &-title {
+                color: $white;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 9px;
+            }
+
+            &-name {
+                font-size: 16px;
+                color: $opwhite;
+            }
+
+        @media all and (max-width: 1439px) {
+            display: none;
+        }    
+        }
+    }
+}
+
+.subtitle_works {
+    width: 100%;
+}
+
+.title_works {
+    width: 100%;
+    max-width: 431px;
+    margin-right: 20px;
+}
+
+.description_works {
+    width: 100%;
+    max-width: 570px;
+    font-weight: 600;
+    color: $mediumgrey
+}
+
+.btn_works {
+    background-color: $violet;
+    color: $white;
+}
+
+@media all and (max-width: 1180px) {
+    .works {
+        padding: 29px 20px 48px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .works {
+        padding: 29px 14px 48px;
+
+        &__text {
+            flex-direction: column;
+            margin-bottom: 46px;
+        }
+
+        &__nav {
+            margin-bottom: 24px;
+
+            &-item:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+
+        &__gallery {
+            margin-top: 18px;
+            margin-bottom: 34px;
+            gap: 17px;
+        }
+    }
+
+
+    .title_works {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
