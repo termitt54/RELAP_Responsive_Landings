@@ -1,0 +1,87 @@
+.feedback {
+  background-color: $white;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 7.1rem;
+  padding-bottom: 9rem;
+  width: 100%;
+
+  @media all and (max-width: 1200px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media all and (max-width: 900px) {
+    padding: 5.4rem 1.5rem 8rem 1.4rem;
+  }
+
+  &__cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 9.7rem;
+    gap: 3rem;
+
+    @media all and (max-width: 1200px) {
+      gap: 1.7rem;
+    }
+
+    @media all and (max-width: 900px) {
+      margin-bottom: 7.7rem;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 37rem;
+
+      padding: 3.2rem 3.2rem 4.2rem;
+      box-shadow: 16px 16px 48px $darkgrey;
+      border-radius: 3px;
+    }
+
+    &-item-photo {
+      width: 100%;
+      max-width: 6.4rem;
+      margin-bottom: 1.4rem;
+    }
+
+    &-item-text {
+      color: $mediumgrey;
+      margin-bottom: 1.6rem;
+      line-height: 2.4rem;
+      font-size: 1.6rem;
+    }
+
+    &-item-name {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+  }
+
+  &__company {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}
+
+.title_feedback {
+  margin-bottom: 2.3rem;
+}
+
+.description_feedback {
+  width: 100%;
+  max-width: 57rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 6.4rem;
+}

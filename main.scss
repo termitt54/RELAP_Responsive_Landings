@@ -1,4 +1,4 @@
-@import "./style/variables.scss";
+@import "./styles/variables.scss";
 @import "./fonts/Poppins/stylesheet.css";
 @import "./fonts/SourceSansPro/stylesheet.css";
 
@@ -8,6 +8,7 @@
 
 html,
 body {
+  font-size: 10px;
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -16,6 +17,7 @@ body {
 .title,
 .subtitle,
 .header__logo {
+  color: $black;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -23,28 +25,29 @@ body {
 }
 
 .title {
-  font-size: 56px;
-  line-height: 64px;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
 
   @media all and (max-width: 900px) {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 4rem;
+    line-height: 4.8rem;
   }
 }
 
 .subtitle {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-transform: uppercase;
-  margin-bottom: 18px;
+  margin-bottom: 1.8rem;
 
   @media all and (max-width: 900px) {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 
 .description {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $black;
 }
 
 p {
@@ -69,21 +72,23 @@ a {
 }
 
 .btn {
+  font-size: 1.6rem;
   width: 100%;
   text-align: center;
-  padding: 12px;
+  padding: 1.2rem;
   font-weight: 700;
-  max-width: 170px;
+  max-width: 17rem;
   border: 1px solid $lightgrey;
-  border-radius: 24px;
+  border-radius: 2.4rem;
 }
 
 .socials {
   display: flex;
   width: 100%;
+  height: 3.2rem;
 
   &__link:not(:last-child) {
-    margin-right: 8px;
+    margin-right: 0.8rem;
   }
 }
 
@@ -97,7 +102,7 @@ a {
   &__content {
     overflow: hidden;
     width: 100%;
-    max-width: 1440px;
+    max-width: 144rem;
   }
 }
 
@@ -108,14 +113,14 @@ a {
 .team,
 .works,
 .footer {
-  padding: 0 135px;
+  padding: 0 13.5rem;
 }
 
-@import "./style/start.scss";
-@import "./style/about.scss";
-@import "./style/works.scss";
-@import "./style/advantage.scss";
-@import "./style/team.scss";
-@import "./style/feedback.scss";
-@import "./style/blog.scss";
-@import "./style/last.scss";
+@import "./styles/start.scss";
+@import "./styles/about.scss";
+@import "./styles/works.scss";
+@import "./styles/advantage.scss";
+@import "./styles/team.scss";
+@import "./styles/feedback.scss";
+@import "./styles/blog.scss";
+@import "./styles/last.scss";

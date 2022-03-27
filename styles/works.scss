@@ -1,0 +1,127 @@
+.works {
+  width: 100%;
+  background-color: $beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.1rem;
+  padding-bottom: 4.8rem;
+
+  @media all and (max-width: 1180px) {
+    padding: 2.9rem 2rem 4.8rem;
+  }
+
+  @media all and (max-width: 900px) {
+    padding: 2.9rem 1.4rem 4.8rem;
+  }
+
+  &__text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.5rem;
+
+    @media all and (max-width: 900px) {
+      flex-direction: column;
+      margin-bottom: 4.6rem;
+    }
+  }
+
+  &__nav {
+    width: 100%;
+    display: flex;
+    margin-bottom: 4.2rem;
+    flex-wrap: wrap;
+
+    @media all and (max-width: 900px) {
+      margin-bottom: 2.4rem;
+    }
+
+    &-item-link {
+      color: $mediumgrey;
+      font-size: 1.6rem;
+
+      &:hover {
+        color: $black;
+        font-weight: 600;
+      }
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 3rem;
+
+      @media all and (max-width: 900px) {
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+
+  &__gallery {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 4.8rem;
+    position: relative;
+
+    @media all and (max-width: 900px) {
+      margin-top: 1.8rem;
+      margin-bottom: 3.4rem;
+      gap: 1.7rem;
+    }
+
+    &-img {
+      width: 100%;
+      max-width: 37rem;
+    }
+
+    &-text {
+      position: absolute;
+      top: 66.54%;
+      left: 36.92%;
+
+      @media all and (max-width: 1439px) {
+        display: none;
+      }
+    }
+
+    &-text-title {
+      color: $white;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.9rem;
+    }
+    
+    &-text-name {
+      font-size: 1.6rem;
+      color: $opwhite;
+    }
+  }
+}
+
+.subtitle_works {
+  width: 100%;
+}
+
+.title_works {
+  width: 100%;
+  max-width: 43.1rem;
+  margin-right: 2rem;
+
+  @media all and (max-width: 900px) {
+    margin-right: 0;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.description_works {
+  width: 100%;
+  max-width: 57rem;
+  font-weight: 600;
+  color: $mediumgrey;
+}
+
+.btn_works {
+  background-color: $violet;
+  color: $white;
+}
