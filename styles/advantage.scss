@@ -33,15 +33,11 @@
         box-shadow: 16px 16px 48px $darkgrey;
         transition-duration: 0.5s;
 
-        .advantage__cards-item-title {
-          position: relative;
-        }
-
-        .advantage__cards-item-title::after {
+        .advantage__cards-item-wrapper::after {
           content: "";
           display: block;
           position: absolute;
-          bottom: 0px;
+          bottom: 9px;
           left: 0;
           width: 100%;
           height: 0.8rem;
@@ -49,6 +45,11 @@
           z-index: 1;
         }
       }
+    }
+
+    &-item-wrapper {
+      display: flex;
+      position: relative;
     }
 
     &-item-icon {
@@ -64,6 +65,7 @@
       font-weight: 700;
       margin-bottom: 0.9rem;
       color: $black;
+      z-index: 2;
     }
 
     &-item-description {
