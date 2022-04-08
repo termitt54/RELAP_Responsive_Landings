@@ -34,43 +34,50 @@
     @media all and (max-width: 900px) {
       margin-bottom: 7.7rem;
     }
+  }
 
-    &-item {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 37rem;
+  &__cards-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 37rem;
 
-      padding: 3.2rem 3.2rem 4.2rem;
-      box-shadow: 16px 16px 48px $darkgrey;
-      border-radius: 3px;
-    }
+    padding: 3.2rem 3.2rem 4.2rem;
+    box-shadow: 16px 16px 48px $darkgrey;
+    border-radius: 3px;
+  }
 
-    &-item-photo {
-      width: 100%;
-      max-width: 6.4rem;
-      margin-bottom: 1.4rem;
-    }
+  &__cards-item-photo {
+    width: 100%;
+    max-width: 6.4rem;
+    margin-bottom: 1.4rem;
+    border-radius: 50%;
+  }
 
-    &-item-text {
-      color: $mediumgrey;
-      margin-bottom: 1.6rem;
-      line-height: 2.4rem;
-      font-size: 1.6rem;
-    }
+  &__cards-item-text {
+    color: $mediumgrey;
+    margin-bottom: 1.6rem;
+    line-height: 2.4rem;
+    font-size: $font-size-2;
+  }
 
-    &-item-name {
-      font-size: 1.6rem;
-      font-weight: 600;
-    }
+  &__cards-item-name {
+    font-size: $font-size-2;
+    font-weight: $font-weight-1;
+    color: $black;
   }
 
   &__company {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
     flex-wrap: wrap;
     gap: 3rem;
+  }
+
+  &__company-img {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -82,6 +89,6 @@
   width: 100%;
   max-width: 57rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: $font-weight-1;
   margin-bottom: 6.4rem;
 }

@@ -1,0 +1,156 @@
+// Poppins //
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
+        url('./fonts/Poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-ExtraBold.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Thin'), local('Poppins-Thin'),
+        url('./fonts/Poppins/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Thin.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Black'), local('Poppins-Black'),
+        url('./fonts/Poppins/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Black.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+        url('./fonts/Poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Medium.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'),
+        url('./fonts/Poppins/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-ExtraLight.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('./fonts/Poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Regular.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+        url('./fonts/Poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-SemiBold.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Light'), local('Poppins-Light'),
+        url('./fonts/Poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Light.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold'), local('Poppins-Bold'),
+        url('./fonts/Poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Bold.woff') format('woff'),
+        url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+// Source Sans Pro //
+
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+		url('./fonts/SourceSansPro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'),
+		url('./fonts/SourceSansPro/SourceSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-ExtraLight.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro Light'), local('SourceSansPro-Light'),
+		url('./fonts/SourceSansPro/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-Light.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro Black'), local('SourceSansPro-Black'),
+		url('./fonts/SourceSansPro/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-Black.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+		url('./fonts/SourceSansPro/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-Bold.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+		url('./fonts/SourceSansPro/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/SourceSansPro/SourceSansPro-SemiBold.woff') format('woff'),
+		url('./fonts/SourceSansPro/SourceSansPro-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+

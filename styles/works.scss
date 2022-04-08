@@ -36,22 +36,22 @@
     @media all and (max-width: 900px) {
       margin-bottom: 2.4rem;
     }
+  }
 
-    &-item-link {
-      color: $mediumgrey;
-      font-size: 1.6rem;
+  &__nav-item-link {
+    color: $mediumgrey;
+    font-size: $font-size-2;
 
-      &:hover {
-        color: $black;
-      }
+    &:hover {
+      color: $black;
     }
+  }
 
-    &-item:not(:last-child) {
-      margin-right: 3rem;
+  &__nav-item:not(:last-child) {
+    margin-right: 3rem;
 
-      @media all and (max-width: 900px) {
-        margin-bottom: 2.4rem;
-      }
+    @media all and (max-width: 900px) {
+      margin-bottom: 2.4rem;
     }
   }
 
@@ -68,33 +68,33 @@
       margin-bottom: 3.4rem;
       gap: 1.7rem;
     }
+  }
 
-    &-img {
-      width: 100%;
-      max-width: 37rem;
-    }
+  &__gallery-img {
+    width: 100%;
+    max-width: 37rem;
+  }
 
-    &-text {
-      position: absolute;
-      top: 66.54%;
-      left: 36.92%;
+  &__gallery-text {
+    position: absolute;
+    top: 66.54%;
+    left: 36.92%;
 
-      @media all and (max-width: 1439px) {
-        display: none;
-      }
+    @media all and (max-width: 1439px) {
+      display: none;
     }
+  }
 
-    &-text-title {
-      color: $white;
-      font-size: 2.4rem;
-      font-weight: 700;
-      margin-bottom: 0.9rem;
-    }
-    
-    &-text-name {
-      font-size: 1.6rem;
-      color: $opwhite;
-    }
+  &__gallery-text-title {
+    color: $white;
+    font-size: $font-size-4;
+    font-weight: $font-weight-2;
+    margin-bottom: 0.9rem;
+  }
+
+  &__gallery-text-name {
+    font-size: $font-size-2;
+    color: $opwhite;
   }
 }
 
@@ -116,7 +116,7 @@
 .description_works {
   width: 100%;
   max-width: 57rem;
-  font-weight: 600;
+  font-weight: $font-weight-1;
   color: $mediumgrey;
 }
 

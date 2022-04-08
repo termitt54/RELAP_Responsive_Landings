@@ -51,80 +51,81 @@
       max-width: 29.7rem;
       height: 30.2rem;
     }
+  }
 
-    &-img {
-      position: absolute;
+  &__photo-img {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  &__photo-img:first-child {
+    opacity: 0.2;
+    width: 100%;
+    max-width: 37rem;
+
+    @media all and (max-width: 470px) {
+      max-width: 29.7rem;
     }
+  }
 
-    &-img:first-child {
-      opacity: 0.2;
+  &__photo-img:nth-child(2) {
+    top: 3%;
+    left: 2%;
+    width: 100%;
+    max-width: 17rem;
+
+    @media all and (max-width: 470px) {
+      top: -2%;
+      left: -4%;
+      max-width: 13.6rem;
+    }
+  }
+
+  &__photo-img:nth-child(3) {
+    top: 17%;
+    right: 1%;
+
+    @media all and (max-width: 470px) {
+      top: 13%;
+      right: -5%;
       width: 100%;
-      max-width: 37rem;
-
-      @media all and (max-width: 470px) {
-        max-width: 29.7rem;
-      }
+      max-width: 9.2rem;
     }
+  }
 
-    &-img:nth-child(2) {
-      top: 3%;
-      left: 2%;
+  &__photo-img:nth-child(4) {
+    bottom: 15%;
+    left: 5%;
+
+    @media all and (max-width: 470px) {
+      bottom: 5%;
+      left: 0%;
       width: 100%;
-      max-width: 17rem;
-
-      @media all and (max-width: 470px) {
-        top: -2%;
-        left: -4%;
-        max-width: 13.6rem;
-      }
+      max-width: 9.2rem;
     }
+  }
 
-    &-img:nth-child(3) {
-      top: 17%;
-      right: 1%;
+  &__photo-img:nth-child(5) {
+    bottom: 4%;
+    right: 20%;
 
-      @media all and (max-width: 470px) {
-        top: 13%;
-        right: -5%;
-        width: 100%;
-        max-width: 9.2rem;
-      }
+    @media all and (max-width: 470px) {
+      bottom: -2%;
+      right: 10%;
+      width: 100%;
+      max-width: 6.6rem;
     }
+  }
 
-    &-img:nth-child(4) {
-      bottom: 15%;
-      left: 5%;
+  &__photo-img:last-child {
+    bottom: 31%;
+    right: 3%;
 
-      @media all and (max-width: 470px) {
-        bottom: 5%;
-        left: 0%;
-        width: 100%;
-        max-width: 9.2rem;
-      }
-    }
-
-    &-img:nth-child(5) {
-      bottom: 4%;
-      right: 20%;
-
-      @media all and (max-width: 470px) {
-        bottom: -2%;
-        right: 10%;
-        width: 100%;
-        max-width: 6.6rem;
-      }
-    }
-
-    &-img:last-child {
-      bottom: 31%;
-      right: 3%;
-
-      @media all and (max-width: 470px) {
-        bottom: 30%;
-        right: -4%;
-        width: 100%;
-        max-width: 4rem;
-      }
+    @media all and (max-width: 470px) {
+      bottom: 30%;
+      right: -4%;
+      width: 100%;
+      max-width: 4rem;
     }
   }
 
@@ -171,7 +172,7 @@
 
 .description_team {
   color: $white;
-  font-weight: 600;
+  font-weight: $font-weight-1;
   margin-bottom: 3.2rem;
 }
 
